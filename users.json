@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Иван Иванов",
+    "email": "ivan@example.com",
+    "role": "Администратор"
+  },
+  {
+    "name": "Анна Смирнова",
+    "email": "anna@example.com",
+    "role": "Пользователь"
+  },
+  {
+    "name": "Илья",
+    "email": "dummer_d@icloud.com",
+    "role": "Администратор"
+  },
+  {
+    "name": "Паша",
+    "email": "hghghfhj@gmail.com",
+    "role": "Администратор"
+  },
+  {
+    "name": "Маха",
+    "email": "gdfsndhbhb@gmail.com",
+    "role": "Администратор"
+  },
+  {
+    "name": "Миша",
+    "email": "fnndweb@mail.ru",
+    "role": "Пользователь"
+  }
+]

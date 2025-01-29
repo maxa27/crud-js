@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 20px;
+    background-color: #0a0a0a;
+    color: #00ff00;
+}
+
+h1 {
+    color: #ffff00;
+    text-shadow: 0 0 5px #ffff00;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+th,
+td {
+    border: 1px solid #00ff00;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #003300;
+    color: #ffff00;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background-color: #002200;
+}
+
+.form-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    background-color: #001a00;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.form-container input,
+select {
+    margin-right: 15px;
+    padding: 8px;
+    background-color: #001a00;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+}
+
+.form-container input::placeholder {
+    color: #00aa00;
+}
+
+button {
+    background-color: #00ff00;
+    color: #0a0a0a;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffff00;
+    box-shadow: 0 0 10px #ffff00;
+}
+
+.delete-btn {
+    background-color: #ff0033;
+    color: #ffffff;
+    border: 1px solid #ff0033;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+#search {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #001a00;
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+#search::placeholder {
+    color: #00aa00;
+}
